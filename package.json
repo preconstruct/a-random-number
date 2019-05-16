@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "preconstruct": "^0.0.66"
+    "preconstruct": "^0.0.68"
   }
 }
