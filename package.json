@@ -2,5 +2,8 @@
   "name": "a-random-number",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "preconstruct": "^0.0.66"
+  }
 }
