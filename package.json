@@ -4,6 +4,7 @@
   "main": "dist/a-random-number.cjs.js",
   "module": "dist/a-random-number.esm.js",
   "license": "MIT",
+  "repository": "https://github.com/mitchellhamilton/a-random-number",
   "devDependencies": {
     "@babel/preset-env": "^7.4.4",
     "preconstruct": "^0.0.68"
