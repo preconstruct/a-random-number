@@ -9,6 +9,8 @@
     "preconstruct": "^0.0.68"
   },
   "scripts": {
-    "postinstall": "preconstruct dev"
+    "postinstall": "preconstruct dev",
+    "build": "preconstruct build",
+    "release": "yarn build && npm publish"
   }
 }
