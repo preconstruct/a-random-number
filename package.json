@@ -1,9 +1,14 @@
 {
   "name": "a-random-number",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/a-random-number.cjs.js",
+  "module": "dist/a-random-number.esm.js",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
     "preconstruct": "^0.0.68"
+  },
+  "scripts": {
+    "postinstall": "preconstruct dev"
   }
 }
