@@ -4,11 +4,11 @@
   "main": "dist/a-random-number.cjs.js",
   "module": "dist/a-random-number.esm.js",
   "license": "MIT",
-  "repository": "https://github.com/mitchellhamilton/a-random-number",
+  "repository": "https://github.com/preconstruct/a-random-number",
   "devDependencies": {
     "@babel/core": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
-    "@preconstruct/cli": "^1.0.0"
+    "@preconstruct/cli": "^1.0.1"
   },
   "scripts": {
     "postinstall": "preconstruct dev",
