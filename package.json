@@ -6,8 +6,9 @@
   "license": "MIT",
   "repository": "https://github.com/mitchellhamilton/a-random-number",
   "devDependencies": {
-    "@babel/preset-env": "^7.4.4",
-    "preconstruct": "^0.0.68"
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@preconstruct/cli": "^1.0.0"
   },
   "scripts": {
     "postinstall": "preconstruct dev",
